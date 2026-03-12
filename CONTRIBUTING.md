@@ -10,14 +10,14 @@
 
 ## Files of interest
 
-| File                                     | Purpose                                           |
-| ---------------------------------------- | ------------------------------------------------- |
-| `metadata.artists.audible/`              | Kodi scraper addon payload                        |
-| `metadata.artists.audible/audible.xml`   | Kodi scraper URL/result/detail mapping            |
-| `metadata.artists.audible/resources/`    | Settings, i18n files and translations             |
-| `scripts/build_release.py`               | Builds the addon ZIP                              |
-| `scripts/publish_to_repo.py`             | Publishes the addon into the Kodi repository repo |
-| `.github/workflows/release-publish.yml`  | Cross-repo release publishing                     |
+| File                                    | Purpose                                           |
+| --------------------------------------- | ------------------------------------------------- |
+| `metadata.artists.audible/`             | Kodi scraper addon payload                        |
+| `metadata.artists.audible/audible.xml`  | Kodi scraper URL/result/detail mapping            |
+| `metadata.artists.audible/resources/`   | Settings, i18n files and translations             |
+| `scripts/build_release.py`              | Builds the addon ZIP                              |
+| `scripts/publish_to_repo.py`            | Publishes the addon into the Kodi repository repo |
+| `.github/workflows/release-publish.yml` | Cross-repo release publishing                     |
 
 ## Local validation
 

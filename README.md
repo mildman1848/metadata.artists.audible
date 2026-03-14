@@ -7,7 +7,7 @@ Kodi-Metadaten-Scraper für Autoren- und Erzählerdaten aus der Audible Catalog 
 - `metadata.artists.audible/`: installierbares Kodi-Addon
 - `scripts/build_release.py`: erzeugt das Release-ZIP unter `dist/`
 - `scripts/publish_to_repo.py`: publiziert das Addon nach `mildman1848.github.io`
-- `.github/workflows/release-publish.yml`: veröffentlicht nach einem GitHub-Release automatisch in die Kodi-Repo
+- `.github/workflows/release-publish.yml`: veröffentlicht das Release-ZIP im GitHub-Repo und publiziert es anschließend automatisch in die Kodi-Repo
 
 ## Repository-Hygiene
 

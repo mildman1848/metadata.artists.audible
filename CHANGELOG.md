@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.0.6 - 2026-03-15
+
+- Reworked artist search extraction to prefer stable Audible contributor authors instead of fragile product-level fallbacks that could resolve to the wrong person.
+- Removed narrator pseudo-results from the XML scraper because Audible product search cannot reliably map them back to one correct artist profile or image.
+- Removed the unused debug setting from the addon settings because the XML scraper has no runtime logging hook behind it.
+
 ## 1.0.5 - 2026-03-15
 
 - Deduplicated repeated author and narrator search results extracted from Audible product matches.

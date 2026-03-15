@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.0.8 - 2026-03-15
+
+- Restricted artist search extraction to the first Audible author only, matching the main-author-only album artist behavior.
+- Prevented secondary co-authors such as Elon Musk from becoming separate scraped artist identities when the primary author is Ashlee Vance.
+
 ## 1.0.7 - 2026-03-15
 
 - Reduced artist search results to one stable Audible contributor match per lookup, preventing repeated duplicate artist rows in Kodi.

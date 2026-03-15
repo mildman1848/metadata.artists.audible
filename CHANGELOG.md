@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.0.5 - 2026-03-15
+
+- Deduplicated repeated author and narrator search results extracted from Audible product matches.
+- Tightened artist album extraction so titles and years no longer bleed across adjacent product objects.
+- Kept contributor detail lookups intact for author biographies and profile images such as Aimée Carter.
+
 ## 1.0.4 - 2026-02-21
 
 - Added `product_images` fallbacks when `profile_image_url` is missing, so artist thumbnails still resolve more reliably.

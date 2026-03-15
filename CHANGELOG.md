@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.0.7 - 2026-03-15
+
+- Reduced artist search results to one stable Audible contributor match per lookup, preventing repeated duplicate artist rows in Kodi.
+- Changed artist artwork output to explicit `thumb` entries with `aspect` and `preview` attributes for better Kodi artwork pickup.
+
 ## 1.0.6 - 2026-03-15
 
 - Reworked artist search extraction to prefer stable Audible contributor authors instead of fragile product-level fallbacks that could resolve to the wrong person.

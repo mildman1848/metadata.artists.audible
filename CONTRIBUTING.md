@@ -1,5 +1,7 @@
 # Contributing to metadata.artists.audible
 
+Deutsch: [CONTRIBUTING.DE.md](CONTRIBUTING.DE.md)
+
 ## Before opening a pull request
 
 - Keep changes focused on the Audible artist scraper or its release automation.
